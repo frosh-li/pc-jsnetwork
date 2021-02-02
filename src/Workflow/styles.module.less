@@ -30,6 +30,13 @@
     padding-bottom: 50px;
     li {
       width: 12.5%;
+      img {
+        transition: all .3s linear;
+      }
+      img:hover {
+        box-shadow: 0 10px 20px #fff;
+        transform: translate3d(0,-10px,0);
+      }
       a {
         text-decoration: none;
         color: #808080;
@@ -40,6 +47,47 @@
     li:first-child {
       a {
         border-left: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main {
+    text-align: center;
+    padding: 30px;
+    ul {
+      justify-content: center;
+      list-style: none;
+      width: 10rem;
+      padding-bottom: 50px;
+      display: block;
+      margin: 0;
+      padding:0;
+      margin-block-start: 0;
+      margin-block-end: 0;
+      padding-inline-start: 0;
+      li {
+        width: 8rem;
+        display: block;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        img {
+          transition: all .3s linear;
+        }
+        img:hover {
+          box-shadow: 0 10px 20px #fff;
+          transform: translate3d(0,-10px,0);
+        }
+        a {
+          text-decoration: none;
+          color: #808080;
+          display: block;
+          border-left: none;
+          p{
+            font-size: 0.6rem;
+          }
+        }
       }
     }
   }

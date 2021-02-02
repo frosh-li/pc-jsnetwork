@@ -4,6 +4,10 @@ import app01 from "../assets/images/app01.png";
 import app02 from "../assets/images/app02.png";
 import app03 from "../assets/images/app03.png";
 import app04 from "../assets/images/app04.png";
+import p1 from "../assets/images/p1.png";
+import p2 from "../assets/images/p2.png";
+import p4 from "../assets/images/p4.png";
+import p5 from "../assets/images/p5.png";
 
 const Case = () => {
 
@@ -25,14 +29,18 @@ const Case = () => {
             <img src={app02} />
           </li>
           <li>
-            <img src={app03} />
+            <img src={p1} />
           </li>
           <li>
-            <img src={app04} />
+            <img src={p2} />
           </li>
           <li>
-            <img src={app02} />
+            <img src={p4} />
           </li>
+          <li>
+            <img src={p5} />
+          </li>
+          
         </ul>
     </div>
   )

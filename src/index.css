@@ -1,9 +1,15 @@
 body {
   margin: 0;
-  font:  14px 'Microsoft Yahei', 'Microsoft Jhenghei', Tahoma, 'Simsun';
+  font:  'Microsoft Yahei', 'Microsoft Jhenghei', Tahoma, 'Simsun';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #666;
+  
+}
+html, body {
+  min-width: 1140px;
+  padding: 0;
+  margin: 0 auto;
 }
 
 div,html,ul, li,input,p,span, i,img {
@@ -15,4 +21,25 @@ div,html,ul, li,input,p,span, i,img {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  min-width: 1140px;
+  margin: auto;
+}
+
+@media screen and (max-width: 767px) {
+  html, body {
+    padding: 0;
+    margin: 0 auto;
+    width: 10rem;
+    min-width: auto;
+  }
+  #root {
+    margin: auto;
+    min-width: auto;
+    width: 10rem;
+    overflow: hidden;
+    display: block;
+  }
 }
