@@ -22,7 +22,10 @@ const Footer = () => {
           <span>添加企业微信</span>
         </div>
       </div>
-      <div className={styles.copyright}>Copyright &copy; 2019 北京俊石网络科技有限公司版权所有</div>
+      <div className={styles.copyright}>
+        <p>Copyright &copy; 2019 北京俊石网络科技有限公司版权所有</p>
+        <p><a href="beian.miit.gov.cn" target="_blank">京ICP备2021003933号</a></p>
+      </div>
     </div>
   )
   
