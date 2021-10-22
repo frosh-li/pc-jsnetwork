@@ -24,7 +24,7 @@ const Footer = () => {
       </div>
       <div className={styles.copyright}>
         <p>Copyright &copy; 2019 北京俊石网络科技有限公司版权所有</p>
-        <p><a href="beian.miit.gov.cn" target="_blank">京ICP备2021003933号</a></p>
+        <p><a href="https://beian.miit.gov.cn" target="_blank">京ICP备2021003933号</a></p>
       </div>
     </div>
   )
