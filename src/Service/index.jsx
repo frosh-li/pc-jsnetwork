@@ -17,22 +17,22 @@ const Service = () => {
       </div>
       <ul>
         <li>
-          <img src={p01} />
+          <img src={p01} alt="" />
           <h2>小程序开发</h2>
           <p>自研小程序开发框架，高性能，高扩展性，高可用！</p>
         </li>
         <li>
-          <img src={p02} />
+          <img src={p02} alt="" />
           <h2>系统定制开发</h2>
           <p>各种中高端系统定制开发，为您的企业保驾护航。</p>
         </li>
         <li>
-          <img src={p03} />
+          <img src={p03} alt="" />
           <h2>App开发</h2>
           <p>精通原生、RN、H5等模式的app开发，多种方案以供选择。</p>
         </li>
         <li>
-          <img src={p04} />
+          <img src={p04} alt="" />
           <h2>智能大数据应用</h2>
           <p>依托大数据，提供更加稳定可扩展的智能服务。</p>
         </li>

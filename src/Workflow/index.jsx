@@ -17,28 +17,28 @@ const Workflow = () => {
           WORKFLOW
         </div>
         <ul>
-          <li><a href="JavaScript:"><img src={p1} width="50" height="50" />
+          <li><a href="/"><img src={p1} width="50" height="50" alt="" />
             <p>沟通需求</p>
             </a> </li>
-          <li><a href="JavaScript:"><img src={p2} width="50" height="50" />
+          <li><a href="/"><img src={p2} width="50" height="50" alt="" />
             <p>签订合同</p>
             </a> </li>
-          <li><a href="JavaScript:"><img src={p3} width="50" height="50"/>
+          <li><a href="/"><img src={p3} width="50" height="50" alt=""/>
             <p>UE原型设计</p>
             </a> </li>
-          <li><a href="JavaScript:"><img src={p4} width="50" height="50"/>
+          <li><a href="/"><img src={p4} width="50" height="50" alt="" />
             <p>需求确认</p>
             </a> </li>
-          <li><a href="JavaScript:"><img src={p5} width="50" height="50"/>
+          <li><a href="/"><img src={p5} width="50" height="50" alt="" />
             <p>UI设计</p>
             </a> </li>
-          <li><a href="JavaScript:"><img src={p6} width="50" height="50" />
+          <li><a href="/"><img src={p6} width="50" height="50" alt="" />
             <p>开发编码</p>
             </a> </li>
-          <li><a href="JavaScript:"><img src={p7} width="50" height="50" />
+          <li><a href="/"><img src={p7} width="50" height="50" alt="" />
             <p>测试验收</p>
             </a> </li>
-          <li><a href="JavaScript:"><img src={p8} width="50" height="50" />
+          <li><a href="/"><img src={p8} width="50" height="50" alt="" />
             <p>交付培训售后</p>
             </a> </li>
         </ul>
